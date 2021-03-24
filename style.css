@@ -294,3 +294,34 @@ input {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+.student-sign-in-username
+{
+    background-image: url(email.png);
+    background-size: 24.2px 24.2px;
+    background-repeat: no-repeat;
+}
+.sign-in{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+input
+{
+    background-color: #f0f4f3;
+    padding: 10px 45px;
+    border: none;
+    background-position: 10px;
+}
+.student-sign-in-pass
+{
+    background-image: url(padlock.png);
+    background-size: 24.2px 24.2px;
+    background-repeat: no-repeat;
+}
+::placeholder
+{
+    text-align: left;
+}
