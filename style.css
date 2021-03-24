@@ -294,13 +294,13 @@ input {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
-.student-sign-in-username
+.username
 {
     background-image: url(email.png);
     background-size: 24.2px 24.2px;
     background-repeat: no-repeat;
 }
-.sign-in{
+.sign-in, .sign-up{
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -314,8 +314,9 @@ input
     padding: 10px 45px;
     border: none;
     background-position: 10px;
+    text-align: left;
 }
-.student-sign-in-pass
+.pass
 {
     background-image: url(padlock.png);
     background-size: 24.2px 24.2px;
