@@ -296,9 +296,9 @@ input {
 }
 .username
 {
-    background-image: url(email.png);
+    /* background-image: url(email.png);
     background-size: 24.2px 24.2px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .sign-in, .sign-up{
     padding-bottom: 50px;
@@ -313,16 +313,24 @@ input
     background-color: #f0f4f3;
     padding: 10px 45px;
     border: none;
-    background-position: 10px;
     text-align: left;
 }
 .pass
 {
-    background-image: url(padlock.png);
+    /* background-image: url(padlock.png);
     background-size: 24.2px 24.2px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 ::placeholder
 {
     text-align: left;
+}
+.login-field-container
+{
+    position: relative;
+}
+.login-field-container i{
+    position: absolute;
+    left: 15px;
+    top: 16px;
 }
